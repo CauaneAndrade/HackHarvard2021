@@ -1,0 +1,68 @@
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.StudentList {
+  max-width: 460px;
+  height: 460px;
+  margin: 0 auto;
+  padding: 6px 0;
+  text-align: center;
+}
+
+@media all and (min-width: 480px) {
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 14, 101, 1) 0%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    color: white;
+    font-size: 30px;
+  }
+  .line {
+    margin-top: 12px;
+  }
+  img {
+    max-height: 300px;
+  }
+}
+
+
+.react-datepicker {
+  display: inline-flex;
+}
