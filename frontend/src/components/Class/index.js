@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import "./style.css";
 
 
-export default function Login() {
+export default function Class() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   // const [errorMsg, setErrorMsg] = useState('');
@@ -16,7 +16,7 @@ export default function Login() {
   };
 
   return (
-    <div className="Login">
+    <div className="Class">
       <Form onSubmit={handleSubmit}>
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>
